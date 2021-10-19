@@ -51,7 +51,7 @@ export default class MovieDB {
     const data = DataController.getInstance();
 
     data.set('apiKey', apiKey);
-    data.set('language', options?.language ?? 'en-US');
+    data.set('language', options?.language ?? 'es-ES');
   }
 
   // eslint-disable-next-line class-methods-use-this
